@@ -1,0 +1,60 @@
+
+@media (max-width: 768px) {
+    .mobile-card {
+        display: block;
+    }
+    .desktop-card {
+        display: none;
+    }
+    .card-height {
+        height: 70px;
+        width: 350px; 
+        border-radius: 10px;
+    }
+    .cardText{
+        font-size: 14px;
+    }
+    .infoTextBox{
+        width: 350px;
+        height: 400px;
+    }
+    .textInfo{
+        font-size: 16px;
+    }
+    .cardIcon{
+        width: 32px;
+        height: 32px;
+    }
+    .transformationImage{
+        width: 330px;
+        height: 298px;
+    }
+   .videoPlayer{
+    width: 320px;
+   }
+   .inputLabel{
+    top: 25px;
+    padding-right: 5px;
+   }
+}
+.footer{
+    display: block;
+    margin: auto;
+}
+.headerButton{
+
+ font-size: 12px;
+ padding: 2px 16px;
+}
+.coText{
+    font-size: 18px;
+}
+
+@media (min-width: 769px) {
+    .mobile-card {
+        display: none;
+    }
+    .desktop-card {
+        display: block;
+    }
+}
